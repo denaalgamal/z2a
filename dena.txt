@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title> My Project </title>
+<link rel="stylesheet" href="styles.css">
+<style type= "text/css" >
+table{
+       border: 1px solid black;
+      }
+
+td{border: 1px solid blue;}
+th{border: 1px solid green;}
+
+p::first-letter{
+   color: red;
+   font-style: italic;
+   font-size: xx-large;
+}
+p::first-line{ 
+    color: blue;
+}
+#mybox{
+          border: 2px solid red;
+          padding: 10 px;
+          border-radius: 25px ;
+ }
+#mybox1{ 
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 50px 20px;
+  }
+</style>
+
+
+
+
+</head>
+<body>
+<h4> What is the day ? </h4>
+<p id="dode"></p>
+<button onclick="r();"> The day </button>
+<br>
+
+<h4> ^ ^ ^ </h4>
+<p id="do"></p>
+<button onclick="w();"> greeting </button>
+<br>
+
+<div id="mybox"> 
+<p> <h3> Types of departments in the Faculty Of Commerce </h3>  </p>
+
+
+
+
+
+<ol>
+<li> Arabic Department </li>
+<li> English Department </li>
+<li> BIS Department </li>
+</ol>
+</div>
+
+<p>  <strong> BIS </strong> is The department came into existence in January 2001, through the sponsorship of TELP-USAID, coordinated by the University of Georgia, USA. It has four laboratories equipped with state of art 90 computers and data projectors. BIS Department aims to equip students with essential knowledge to become BIS professionals for a wide range of career opportunities, in the fields of business and information technology, both in public and private sectors. The graduates possess in-depth knowledge in information systems and technology, together with a broad spectrum of knowledge including business, management, accounting, finance, logistics, social ethics, and general studies in their three-year studies. </p>
+<div id="mybox1">
+<h1> BIS Is </h1> <br> <h4> very importand department in faculty of commerce and it include different sections that enable students how to be perfect with using computer programs </h4>
+</div>
+<div id="mybox3">
+<h2> <b> What Are Information Systems? </b> </h2> 
+</div>
+<br> 
+<h4> information system (IS) are computing systems that support business operations, management, and decision making in organizations. IS are an integrated part of virtually every work environment and play a crirtcal eolr in running organization.</h4> <br> 
+<ul>
+<li> BIS department <img src=B.JPEG> </li>
+<li> English department <img src=c.PNG> </li>
+</ul>
+<br>
+<table>
+<thead>
+<th> -    </th>
+<th> Department </th>
+</thead>
+<tr>
+<td> 1    </td>
+<td> Arabic </td>
+</tr>
+
+<tr>
+<td> 2     </td>
+<td> English   </td>
+</tr>
+
+<tr>
+<td> 3   </td>
+<td> BIS  </td>
+</tr>
+</table>
+<br>
+<div class= "sec1" >
+ <h1> <b> <u> The Advantages of BIS Departement </u></b> </h1> 
+<p> <h4> Enable graduates to fulfill key roles in the information systems (IS) and related industries, and to liaise between IS personnel and other professional </h4> </p>
+<p> <h4> supply of information to decision-makers. better customer service. continuous availability of the systems. growth in communication capabilities and methods </h4> </p>
+<br>
+ <h1> <u> To register fill the following information:</u> </h1>
+<br>
+<div id="reg-form">
+<form action= "http://www.example.com/subscribe.php" method="post" >
+<label for="txtbox1"> First Name: </label>
+<input id= "txtbox1" type= "text" name= "first name" maxlength= "30" placeholder= "Dina" required />
+
+<label for="txtbox2"> Last Name: </label>
+<input id ="txtbox2" type= "text" name= "last name" maxlength= "30" placeholder= "Elgamal" required />
+
+<label for="txtbox3"> Email: </label>
+<input id="txtbox3" type= "email" name= "email" placeholder= "denaalgamal2000@gmail.com" required />
+<br>
+<label for= "txtbox4"> Password: </label>
+<input id= "txtbox4" type= "password" name= "pass" required />
+<br>
+<label for= "Arabic"> Arabic </label>
+<input id= "Arabic" type= "radio" name= "department" value= "A"  />
+<label for= "English"> English </label>
+<input id= "English" type= "radio" name= "department" value= "E" />
+<label for= "BIS"> BIS </label> 
+<input id= "BIS" type= "radio" name= "department" value= "B"  />
+<br>
+<label for= "month"> Birthday:</label>
+<select id= "month" name= "months">
+<option value= "0" selected disabled> month </option>
+<option value= "1"> January </option>
+<option value= "2"> February </option>
+<option value= "3"> March </option>
+<option value= "4"> April </option>
+<option value= "5"> May </option>
+<option value= "6"> June </option>
+<option value= "7"> July </option>
+<option value= "8"> August </option>
+<option value= "9"> September </option>
+<option value= "10"> October </option>
+<option value= "11"> November </option>
+<option value= "12"> December </option>
+</select>
+<br>
+<label for= "box"> I agree with form condition </label>
+<input id= "box" type= "checkbox" name= "check" value= "valu 1" />
+<br> 
+<button type= "submit">
+           submit
+</button>
+</form>
+</div>
+<br>
+<h2> To Know More Information about The Departements : </h2>
+<p> <b> <a href="default.asp"> This is uni link </a> </p>
+<h1> EX:- </h1>
+<p> to see the example </p>
+<button onclick="Function()"> More </button>
+<br>
+<p id="sss">An information system is essentially made up of five components hardware, software, database, network and people. These five components integrate to perform input, process, output, feedback and control. </p>
+ 
+<p id="fff"> Information system VS Information technology </p>
+<button onclick="Function2()"> More </button>
+
+<p> BIS </p> 
+<button onclick="Function8()"> More </button>
+<h3> Number of credit hours in BIS </h3>
+<p id="ppp"></p>
+<h4> Business Information Systems (BIS) is a data systems design partnership company founded in 1977 to help businesses and government entities find solutions by using the latest computer technology and programming techniques.</h4>
+<button onclick="f();console.log(a);"> More </button>
+<h4> Business Information Systems OÜ was founded as a spin-off from Salva Insurance Ltd. Business and IT Development department in early 2009. There are 11 employess with insurance and IT background. BIS key staff has more than 15 years of experience in developing non-life Insurance business systems.</h4>
+<button onclick="n();"> More </button>
+<h4> The credit hours in BIS by using while loop </h4>
+<p id="4A"></p>
+<button onclick="l();"> More </button>
+
+
+
+
+<script src="F1.js">
+document.getElementById("sss").innerHTML = "some people says that there are only 3 components of information system as they ignore the most important element and that is people ";
+ 
+
+function Function() {
+ document.open();
+ document.write("<h1> EX:- </h1> <p> An example is an online air ticket booking system, that collects data from users and generates an airline ticket and a bill. Typical organizational departments that use transaction processing systems are sales, account, finance, plant, engineering, human resource, and marketing. </p> ");
+ document.close();
+}
+function Function8() {
+ alert("BIS is a credit-hour at Tanta University");
+}
+
+
+
+ 
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
